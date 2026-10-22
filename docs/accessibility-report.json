@@ -1,0 +1,58 @@
+[
+  {
+    "route": "/resources",
+    "violations": []
+  },
+  {
+    "route": "/resources/a-calmer-week",
+    "violations": []
+  },
+  {
+    "route": "/how-it-works",
+    "violations": []
+  },
+  {
+    "route": "/about",
+    "violations": []
+  },
+  {
+    "route": "/contact",
+    "violations": []
+  },
+  {
+    "route": "/login",
+    "violations": []
+  },
+  {
+    "route": "/signup",
+    "violations": []
+  },
+  {
+    "route": "/not-found",
+    "violations": []
+  },
+  {
+    "route": "/dashboard?view=overview",
+    "violations": []
+  },
+  {
+    "route": "/dashboard?view=tasks",
+    "violations": []
+  },
+  {
+    "route": "/dashboard?view=projects",
+    "violations": []
+  },
+  {
+    "route": "/dashboard?view=insights",
+    "violations": []
+  },
+  {
+    "route": "/dashboard?view=assistant",
+    "violations": []
+  },
+  {
+    "route": "Task editor dialog",
+    "violations": []
+  }
+]

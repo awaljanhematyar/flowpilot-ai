@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vercel/
+.env*
+!.env.example
+test-results/
+playwright-report/
+*.log
+*.tmp
+# Local planning and execution notes are not part of the public application.
+PRD.md
+architecture.md
+design.md
+rules.md
+phases.doc.md
+memory.md
+CODEX_MASTER_PROMPT.md

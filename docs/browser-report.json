@@ -1,0 +1,73 @@
+{
+  "base": "http://127.0.0.1:5173",
+  "routes": [
+    "/",
+    "/features",
+    "/how-it-works",
+    "/pricing",
+    "/resources",
+    "/resources/a-calmer-week",
+    "/about",
+    "/contact",
+    "/login",
+    "/signup",
+    "/missing"
+  ],
+  "responsive": [
+    "/ @ 375",
+    "/features @ 375",
+    "/pricing @ 375",
+    "/resources @ 375",
+    "/contact @ 375",
+    "/ @ 768",
+    "/features @ 768",
+    "/pricing @ 768",
+    "/resources @ 768",
+    "/contact @ 768",
+    "/ @ 1024",
+    "/features @ 1024",
+    "/pricing @ 1024",
+    "/resources @ 1024",
+    "/contact @ 1024",
+    "/ @ 1440",
+    "/features @ 1440",
+    "/pricing @ 1440",
+    "/resources @ 1440",
+    "/contact @ 1440",
+    "/dashboard @ 375",
+    "/dashboard @ 768",
+    "/dashboard @ 1024",
+    "/dashboard @ 1440"
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/pricing",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/features",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/dashboard",
+      "width": 375,
+      "violations": []
+    }
+  ],
+  "flows": [
+    "Marketing navigation Escape and focus return",
+    "Annual pricing: Pro $144/year, Business $278.40/year",
+    "Article search and empty-state recovery",
+    "Required/email/message validation and honest simulated submission",
+    "Task create/edit/complete/persist/reload/delete",
+    "Modal Escape/focus return, mobile sidebar, scenarios, logout/route guard"
+  ],
+  "runtimeErrors": []
+}
