@@ -4,9 +4,18 @@
   "category": "SaaS Web Application",
   "short_description": "A premium AI-inspired SaaS productivity demo featuring an interactive dashboard, project organization, task management, pricing plans, and responsive UI.",
   "description": "FlowPilot AI is a modern, responsive SaaS portfolio demonstration built with React 19, Vite, JavaScript, and Tailwind CSS. It combines a polished marketing website with an interactive productivity dashboard featuring local task management, project overviews, lightweight insights, simulated account sessions, and predefined AI-style suggestions. The project also includes responsive navigation, educational blog content, accessible UI components, and illustrative subscription pricing. All AI responses, account sessions, and subscription features are demonstrations; no real AI processing, authentication, or billing occurs.",
-  "technologies": ["React", "Vite", "JavaScript", "Tailwind CSS", "React Router", "Lucide React"],
+  "technologies": [
+    "React",
+    "Vite",
+    "JavaScript",
+    "Tailwind CSS",
+    "React Router",
+    "Lucide React"
+  ],
   "github_url": "https://github.com/awaljanhematyar/flowpilot-ai",
-  "live_url": null,
+  "live_url": "https://flowpilot-ai-sigma.vercel.app",
   "cover_file": "docs/portfolio/flowpilot-ai-cover.png",
-  "published": false
+  "published": true,
+  "cover_url": "https://gherjvdbvlylvubgjjew.supabase.co/storage/v1/object/public/portfolio-public/cover/61b9df3bedd6dbd5b299af774e0949b2.png",
+  "project_url": "https://hematyar-professional-portfolio.vercel.app/projects/flowpilot-ai"
 }

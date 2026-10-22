@@ -1,4 +1,8 @@
 // Shared brand, button, heading, illustration and chart primitives.
+
+// ========================================
+// SHARED INTERFACE PRIMITIVES
+// ========================================
 import { Link } from "react-router-dom";
 import {
   ArrowUpRight,

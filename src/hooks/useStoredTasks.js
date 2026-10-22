@@ -1,4 +1,8 @@
 // Reactive task storage with a visible fallback when browser persistence is unavailable.
+
+// ========================================
+// LOCAL TASK STATE AND PERSISTENCE
+// ========================================
 import { useState } from "react";
 import { initialTasks } from "../data/content";
 import { readStored, saveStored, TASK_KEY, validTasks } from "../utils/storage";

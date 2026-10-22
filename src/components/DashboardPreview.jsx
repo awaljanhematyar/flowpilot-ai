@@ -1,4 +1,8 @@
 // Static, non-interactive product illustration made from the same design language as the app.
+
+// ========================================
+// STATIC WORKSPACE PREVIEW
+// ========================================
 import {
   CheckCheck,
   Layers,

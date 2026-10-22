@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:browser": "node tests/browser.mjs",
     "cover": "node scripts/portfolio-cover.mjs",
-    "format": "prettier --write src tests scripts *.js *.json index.html"
+    "format": "prettier --write src tests scripts *.js *.json index.html",
+    "prebuild": "node scripts/sitemap.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.0",

@@ -1,0 +1,26 @@
+{
+  "url": "https://hematyar-professional-portfolio.vercel.app/projects/flowpilot-ai",
+  "viewports": [
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "width": 375,
+      "client": 375,
+      "scroll": 375,
+      "offenders": []
+    }
+  ],
+  "image": {
+    "loaded": true,
+    "width": 1600,
+    "height": 900,
+    "src": "https://gherjvdbvlylvubgjjew.supabase.co/storage/v1/object/public/portfolio-public/cover/61b9df3bedd6dbd5b299af774e0949b2.png"
+  },
+  "live": "https://flowpilot-ai-sigma.vercel.app",
+  "github": "https://github.com/awaljanhematyar/flowpilot-ai",
+  "homepageCard": true
+}

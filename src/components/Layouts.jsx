@@ -1,4 +1,8 @@
 // Distinct marketing shell with accessible disclosure navigation and a consistent footer.
+
+// ========================================
+// MARKETING SHELL AND ROUTE METADATA
+// ========================================
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { ArrowRight, Menu, X, ArrowUpRight } from "lucide-react";

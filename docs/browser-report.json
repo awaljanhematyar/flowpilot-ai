@@ -1,5 +1,5 @@
 {
-  "base": "http://127.0.0.1:5173",
+  "base": "https://flowpilot-ai-sigma.vercel.app",
   "routes": [
     "/",
     "/features",

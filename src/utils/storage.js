@@ -1,4 +1,8 @@
 // Validated, versioned demo persistence; storage failures never block the interface.
+
+// ========================================
+// VERSIONED DEMO STORAGE
+// ========================================
 export const TASK_KEY = "flowpilot.tasks.v1";
 export const SESSION_KEY = "flowpilot.session.v1";
 export function validTasks(value) {

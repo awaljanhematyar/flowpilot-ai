@@ -260,4 +260,11 @@ console.log(
     2,
   ),
 );
-assert.equal(report.accessibility.reduce((total, check) => total + check.violations.length, 0), 0, 'Accessibility violations must be resolved; see docs/browser-report.json.');
+assert.equal(
+  report.accessibility.reduce(
+    (total, check) => total + check.violations.length,
+    0,
+  ),
+  0,
+  "Accessibility violations must be resolved; see docs/browser-report.json.",
+);

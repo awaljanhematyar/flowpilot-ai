@@ -46,8 +46,17 @@ console.log(
     teams: teams.map((t) => ({ id: t.id, slug: t.slug })),
   }),
 );
-if (process.argv.includes("--status")) {
+if (process.argv.includes("--status") || process.argv.includes("--latest")) {
   const saved = JSON.parse(await readFile("docs/deployment.json", "utf8"));
+  if (process.argv.includes("--latest")) {
+    const list = await api(
+      `/v6/deployments?projectId=${saved.projectId}&target=production&limit=1${saved.teamId ? `&teamId=${saved.teamId}` : ""}`,
+    );
+    if (!list.deployments?.length)
+      throw new Error("No production deployment found.");
+    saved.deploymentId = list.deployments[0].uid;
+    saved.url = `https://${list.deployments[0].url}`;
+  }
   const status = await api(
     `/v13/deployments/${saved.deploymentId}${saved.teamId ? `?teamId=${saved.teamId}` : ""}`,
   );
@@ -56,6 +65,7 @@ if (process.argv.includes("--status")) {
     readyState: status.readyState,
     aliases: status.alias || [],
     error: status.errorMessage || null,
+    commit: status.meta?.githubCommitSha || null,
   };
   await writeFile("docs/deployment.json", JSON.stringify(state, null, 2));
   console.log(JSON.stringify(state));

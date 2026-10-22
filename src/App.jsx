@@ -1,4 +1,8 @@
 // Route composition keeps the interactive workspace in its own lazy-loaded bundle.
+
+// ========================================
+// APPLICATION ROUTE COMPOSITION
+// ========================================
 import { lazy, Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { MarketingLayout, RouteEffects } from "./components/Layouts";

@@ -4,7 +4,7 @@
 
 ![Desktop and mobile experience](docs/portfolio/flowpilot-ai-cover.webp)
 
-[Source on GitHub](https://github.com/awaljanhematyar/flowpilot-ai). Production URL will be added after verification.
+[Live demo](https://flowpilot-ai-sigma.vercel.app) · [Source on GitHub](https://github.com/awaljanhematyar/flowpilot-ai) · [Portfolio case study](https://hematyar-professional-portfolio.vercel.app/projects/flowpilot-ai)
 
 ## Features
 
